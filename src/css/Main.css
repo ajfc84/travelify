@@ -1,0 +1,35 @@
+/* About */
+#about {
+    width: 90%;
+    height: 180px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+#description {
+    float: left;
+    width: 90%;
+}
+#description p {
+    font-size: 20px;
+    text-align: justify;
+    color: darkgray;
+}
+#description a {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #57ad68;
+}
+#evaluation {
+    float: right;
+}
+#star {
+    width: 25px;
+}
+#season {
+    width: 35px;
+}
+#dollar {
+    width: 15px;
+}
+
+  

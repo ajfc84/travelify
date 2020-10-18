@@ -1,0 +1,26 @@
+/* Carousel */
+.carousel {
+  width: 100%;
+}
+.image {
+  display: inline-block;
+  background-color: #5eb75b;
+  width: 14%;
+  height: 300px;
+  margin: 25px 1%;
+  border-radius: 10px;
+}
+.description {
+  opacity: 0.5;
+  background-color: black;
+  width: 80%;
+  height: 40px;
+  margin: 70% auto;
+  border-radius: 5px;
+}
+.description span {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: white;
+}

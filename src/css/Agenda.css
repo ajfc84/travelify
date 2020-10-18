@@ -1,0 +1,49 @@
+/* Agenda */
+#agenda {
+    width: 95%;
+    margin: 50px auto;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #57ad68;
+    color: white; 
+    font-size: 20px;
+    font-weight: 700;
+    font-family: serif;
+}
+#agenda thead tr td h2 {
+    margin: 0;
+    color: white; 
+}
+#agenda tbody tr {
+    height: 150px;
+    background-color: lightgreen;
+}
+#agenda tbody tr td {
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
+    border-radius: 3px;
+}
+#agenda tbody tr td p {
+    height: 25px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+#agenda tbody tr td p:nth-child(2) {
+    background-color: lightgreen;
+    color: white;
+}
+#agenda tbody tr td p:nth-child(1) {
+    background-color: white;
+    color: green;
+}
+#agenda tbody tr td p:nth-child(4) {
+    background-color: lightgreen;
+    color: white;
+}
+#agenda tbody tr td p:nth-child(3) {
+    background-color: white;
+    color: green;
+}
+  

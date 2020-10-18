@@ -1,0 +1,22 @@
+/* footer */
+.social-links {
+    color: black;
+    width: 380px;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+  
+  #keywords {
+    width: 100%;
+    height: 50px;
+    background-color: #57ad68;
+  }
+  
+  #keywords a {
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+  
