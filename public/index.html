@@ -26,7 +26,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <!-- React -->
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/style.css">
+    <link rel="stylesheet" href="./reset.css" /> 
+    <link rel="stylesheet" href="./style.css" /> 
     <style type="text/css" media="screen">
       .hgroup-wrap {padding-top: 0px; padding-bottom: 0px;}
       .hgroup-right {margin-top: 10px;}
@@ -55,72 +56,12 @@
     <style type="text/css" id="custom-background-css">
         body.custom-background { background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
         </style>
-    <style type="text/css" id="wp-custom-css">
-    </style>
-    <title>Morro de Sao Paulo</title>
+    <title>Travelify</title>
   </head>
-  <body class="page-template-default page page-id-49 custom-background theme-morrodesaopaulo left-sidebar-template">
+  <body>
 	
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div class="wrapper">
-      <header id="branding" >		
-        <div class="container clearfix">
-          <div class="hgroup-wrap clearfix">
-            <section class="hgroup-right">
-                
-              <div class="social-icons clearfix">
-                <ul><li class="facebook"><a href="http://www.facebook.com/sea.life.vida.mar" title="Morro de São Paulo on Facebook" target="_blank"></a></li><li class="twitter"><a href="http://www.twitter.com" title="Morro de São Paulo on Twitter" target="_blank"></a></li><li class="google-plus"><a href="http://www.google.com" title="Morro de São Paulo on Google-Plus" target="_blank"></a></li>	<li class="youtube"><a href="http://www.youtube.com" title="Morro de São Paulo on YouTube" target="_blank"></a></li>
-                </ul>
-              </div><!-- .social-icons -->
-            </section><!-- .hgroup-right -->
-            <hgroup id="site-logo" class="clearfix">
-              <h1 id="site-title"><a href="%PUBLIC_URL%/" title="Morro de São Paulo" rel="home">Morro de São Paulo</a></h1>
-              <h2 id="site-description"></h2>	
-            </hgroup><!-- #site-logo -->
-          </div><!-- .hgroup-wrap -->
-        </div><!-- .container -->
-        <img src="%PUBLIC_URL%/images/panoramic.jpg" class="header-image" width="6008" height="749" alt="Morro de São Paulo">
-        <nav id="main-nav" class="clearfix">
-          <div class="container clearfix">
-            <ul class="root">
-              <li id="menu-item-507" class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-507"><a href="#pll_switcher"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHjSURBVHjaYmRIZkCAfwwMf2DkLzCCMyDoBwNAALEAlTVGN/5nYPj//x8Q/P3/9++/vzZa31gY/mw5z/Tn3x8g98+f37///fn99/eq2lUAAQTS8J/h/7NPz/9C5P79WRj89f9/zv//fztLvPVezPzrz+8/f3//+vtLhl8GaANAAIE1/P8PVA1U6qn7NVTqb1XVpAv/JH7/+a/848XmtpBlj39PO8gM1PP7z2+gqwACiAnoYpC9TF9nB34NVf5z4XpoZJbEjJKfWaEfL7KLlbaURKj8Opj08RfIVb+BNgAEEBPQW1L8P+b6/mb6//s/w+/+nc4F0/9P2cj65xdHc+p/QR39//9/AdHJ9A/60l8YvjIABBAT0JYH75jStv75zwCSMBY8BXTMxXv/21ezfHj9X5/3BESDy5JfBy7/ZuBnAAggkA1//vx594kpaCnLloe/smLaVT9/ff3y/+/P/w+u/+JuW7fhwS/tSayPXrOycrEyfGQACCAWoA1//oOCDIgm72fu4vy6b4LD/9/S/3///s9+S28yy+9/LEAf//kLChVgCAEEEEjD7z9/JHgkQeHwD8gUjV79O9r6CzPLv6lr1OUFwWH9Fxjcv//9BcYoA0AAMTI4ImIROUYRMf2XARkABBgA8kMvQf3q+24AAAAASUVORK5CYII=" title="Português" alt="Português" width="16" height="11" style="width: 16px; height: 11px;" /></a>
-            <ul class="sub-menu">
-              <li id="menu-item-507-pt" class="lang-item lang-item-42 lang-item-pt current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-507-pt"><a href="http://localhost:8080/contato/" hreflang="pt-BR" lang="pt-BR"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHjSURBVHjaYmRIZkCAfwwMf2DkLzCCMyDoBwNAALEAlTVGN/5nYPj//x8Q/P3/9++/vzZa31gY/mw5z/Tn3x8g98+f37///fn99/eq2lUAAQTS8J/h/7NPz/9C5P79WRj89f9/zv//fztLvPVezPzrz+8/f3//+vtLhl8GaANAAIE1/P8PVA1U6qn7NVTqb1XVpAv/JH7/+a/848XmtpBlj39PO8gM1PP7z2+gqwACiAnoYpC9TF9nB34NVf5z4XpoZJbEjJKfWaEfL7KLlbaURKj8Opj08RfIVb+BNgAEEBPQW1L8P+b6/mb6//s/w+/+nc4F0/9P2cj65xdHc+p/QR39//9/AdHJ9A/60l8YvjIABBAT0JYH75jStv75zwCSMBY8BXTMxXv/21ezfHj9X5/3BESDy5JfBy7/ZuBnAAggkA1//vx594kpaCnLloe/smLaVT9/ff3y/+/P/w+u/+JuW7fhwS/tSayPXrOycrEyfGQACCAWoA1//oOCDIgm72fu4vy6b4LD/9/S/3///s9+S28yy+9/LEAf//kLChVgCAEEEEjD7z9/JHgkQeHwD8gUjV79O9r6CzPLv6lr1OUFwWH9Fxjcv//9BcYoA0AAMTI4ImIROUYRMf2XARkABBgA8kMvQf3q+24AAAAASUVORK5CYII=" title="Português" alt="Português" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
-              <li id="menu-item-507-en" class="lang-item lang-item-48 lang-item-en no-translation menu-item menu-item-type-custom menu-item-object-custom menu-item-507-en"><a href="http://localhost:8080/en/news/" hreflang="en-US" lang="en-US"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
-            </ul>
-              <li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-274"><a href="%PUBLIC_URL%/">Notícias</a></li>
-              <li id="menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-843"><a href="%PUBLIC_URL%/calendar/">Agenda</a></li>
-              <li id="menu-item-991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991"><a href="%PUBLIC_URL%/loja/">Loja</a></li>
-              <li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="%PUBLIC_URL%/como-chegar/">Como chegar</a></li>
-              <li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="%PUBLIC_URL%/passeios/">Passeios</a></li>
-              <li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="%PUBLIC_URL%/festas-e-eventos/">Festas e eventos</a></li>
-              <li id="menu-item-604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-604"><a href="%PUBLIC_URL%/atividades/">Atividades</a></li>
-              <li id="menu-item-457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-457"><a href="%PUBLIC_URL%/sobre-morro/">Sobre Morro</a></li>
-              <li id="menu-item-1005" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-49 current_page_item menu-item-1005">
-              <a href="%PUBLIC_URL%/contato/" aria-current="page">Contato</a></li>
-            </ul>
-          </div><!-- .container -->
-        </nav><!-- #main-nav -->
-      </header>
-      
-      <div id="main" class="container clearfix">
-        <div id="container">
-          <div id="content">
-            <div id="root"></div>
-          </div>
-        </div>
-      </div><!-- #main -->
-  
-       
-       
-      <footer id="footerarea" class="clearfix">
-        <div id="site-generator">
-          <div class="container"><div class="copyright">Copyright &copy; 2020 <a href="%PUBLIC_URL%/" title="Morro de São Paulo" ><span>Morro de São Paulo</span></a></div><!-- .copyright -->
-          <div class="footer-right">Default footer text</div><div style="clear:both;"></div>
-        </div><!-- #site-generator -->
-        <div class="back-to-top"><a href="#branding"></a></div>
-      </footer>
-      
-    </div><!-- .wrapper -->
+    <div id="root"></div>
+
   </body>
 </html>
