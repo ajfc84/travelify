@@ -21,6 +21,11 @@
   margin: 20px auto;
 }
 
+#destiny {
+  width: 250px;
+  font-size: 20px;
+}
+
 #destination input, select {
   background-color: #57ad68;
   border: 1px solid darkgreen;
@@ -36,7 +41,7 @@
   padding: 0 30px;
 }
 #destination input[type="submit"] {
-  width: 50px;
+  width: 100px;
   margin-left: 50px;
 }
 #destination input[type="submit"]:hover {

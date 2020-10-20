@@ -23,20 +23,21 @@ const Agenda = () => {
             */}
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
                     <td>
-                        <span title="01 October 2020">01</span>
+                        <span title="11 October 2020">11</span>
                         <p>Volta a Ilha Tour</p>
                         <p>Ilha dos Frades Boat tour</p>
                         <p>Morro SP Boat Tour</p>
                         <p>Morro de São Paulo Day Trip</p>
                         <p></p>
                     </td>
-                    <td>02</td>
-                    <td>03</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>Filter</td>
                 </tr>
             </tbody>
         </table>

@@ -1,0 +1,36 @@
+#sitegoalsobjectives {
+    width: 100%;
+    height: 500px;
+    margin: 100px auto;
+    background-color: lightgreen;
+}
+.goals {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 100px;
+    vertical-align: top;
+    font-family: serif;
+}
+.goals img {
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.goals h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.goals p {
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

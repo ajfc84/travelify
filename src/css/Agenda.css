@@ -23,6 +23,11 @@
     vertical-align: top;
     border-radius: 3px;
 }
+#agenda tbody tr td:nth-child(8) {
+    background-color: white;
+    color: green;
+    width: 100px;
+}
 #agenda tbody tr td p {
     height: 25px;
     margin: 0;

@@ -1,12 +1,14 @@
 import React from 'react'
 import '../css/Footer.css'
+import Goal from './Goal'
 
 const Footer = () => {
     return (
         <footer id="footerarea" className="clearfix">
-                    <div id="keywords">
-                        <a href="/">Assinar newsletter</a>
-                    </div>
+            <Goal />
+            <div id="keywords">
+                <a href="/">Assinar newsletter</a>
+            </div>
             <div id="site-generator">
             <p className="social-links"><a href="/">Facebook</a> | <a href="/">Instagram</a> | <a href="/">Youtube</a></p>
                 <div className="container">
