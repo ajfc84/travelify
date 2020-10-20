@@ -2,7 +2,6 @@ import React from 'react'
 import star from '../images/star-solid.svg'
 import dollar from '../images/dollar-sign-solid.svg'
 import cloud from "../images/cloudy.png"
-import Agenda from "./Agenda"
 import '../css/Main.css'
 import Tabs from './Tabs'
 
@@ -37,7 +36,6 @@ const Main = () => {
                         </div>
                     </div>
                     <Tabs />
-                    <Agenda />
                 </div>
             </div>
         </div>

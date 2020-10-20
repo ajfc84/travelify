@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Tabs.css'
+import Agenda from './Agenda'
 import Carousel from './Carousel'
 
 const Tabs = () => {
@@ -17,6 +18,7 @@ const Tabs = () => {
             <tbody>
                 <tr>
                     <td colSpan="6">
+                        <Agenda />
                         <Carousel />
                     </td>
                 </tr>

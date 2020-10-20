@@ -4,6 +4,7 @@ import '../css/Agenda.css'
 const Agenda = () => {
     return (
         <table id="agenda">
+            { /*
             <thead>
                 <tr>
                     <td colSpan="6"><h2>Agenda</h2></td>
@@ -19,6 +20,7 @@ const Agenda = () => {
                     <td>S</td>
                 </tr>
             </thead>
+            */}
             <tbody>
                 <tr>
                     <td></td>
@@ -26,11 +28,12 @@ const Agenda = () => {
                     <td></td>
                     <td></td>
                     <td>
-                        01
-                        <p>something</p>
-                        <p>something else</p>
-                        <p>another thing</p>
-                        <p>and another</p>
+                        <span title="01 October 2020">01</span>
+                        <p>Volta a Ilha Tour</p>
+                        <p>Ilha dos Frades Boat tour</p>
+                        <p>Morro SP Boat Tour</p>
+                        <p>Morro de São Paulo Day Trip</p>
+                        <p></p>
                     </td>
                     <td>02</td>
                     <td>03</td>
