@@ -1,12 +1,12 @@
 #sitegoalsobjectives {
     width: 100%;
     height: 500px;
-    margin: 100px auto;
+    margin-top: 100px;
     background-color: lightgreen;
 }
 .goals {
     display: inline-block;
-    width: 250px;
+    width: 430px;
     height: 300px;
     margin: 100px;
     vertical-align: top;
@@ -17,11 +17,12 @@
     width: 200px;
     height: 100px;
     margin: 0 auto;
+    border-radius: 3px;
 }
 .goals h4 {
     text-align: center;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
+    font-size: 2.0em;
+    margin-block-start: 1.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -33,4 +34,5 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-size: 17px;
 }

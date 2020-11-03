@@ -12,7 +12,7 @@ const Footer = () => {
             <div id="site-generator">
             <p className="social-links"><a href="/">Facebook</a> | <a href="/">Instagram</a> | <a href="/">Youtube</a></p>
                 <div className="container">
-                    <div className="copyright">Copyright &copy; 2020 <a href="/" title="Morro de São Paulo" ><span>Morro de São Paulo</span></a></div>
+                    <div className="copyright">Copyright &copy; 2020 <a href="/" title="Travelify" ><span>Travelify</span></a></div>
                     <div className="footer-right">Default footer text</div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Goal = () => {
             <div className="goals">
                 <img src={myagenda} alt="agenda" />
                 <h4>A sua Agenda</h4>
-                <p>Nao perca tempo de lazer com burocracia, organize sua viagem com facilidade em sua agenda travelify e aproveite seu tempo de ferias ao maximo!</p>
+                <p>Nao perca tempo de lazer com logistica, organize sua viagem com facilidade em sua agenda travelify e aproveite seu tempo de ferias ao maximo!</p>
             </div>
             <div className="goals">
                 <img src={mypackage} alt="pacote" />

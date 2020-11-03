@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div className="nav-destination">
                 <form id="destination">
-                    <label htmlFor="destiny">Para</label><select id="destiny"><option value="morro">Morro de Sao Paulo</option></select>
+                    <label htmlFor="place">Para</label><select id="place"><option value="morro">Morro de Sao Paulo</option></select>
                     <label htmlFor="from">de</label><input type="date" name="from" id="from" />
                     <label htmlFor="to">ate</label><input type="date" name="to" id="to" />
                     <input type="submit" value="Ir" />
