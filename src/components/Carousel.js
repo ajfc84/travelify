@@ -2,13 +2,11 @@ import React, { useEffect, useState } from 'react'
 import '../css/Carousel.css'
 import agenda from '../images/calendar-plus-solid.svg'
 
-// const products = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6', 'product7', 'product8', 'product9', 'product10', 'product11', 'product12i']
-
 const Carousel = () => {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:8000/api/v1/')
+        fetch('https://j2k7xg2i16.execute-api.sa-east-1.amazonaws.com/dev/product')
         .then(response => response.json())
         .then(data => setProducts(data))
         .catch(error => window.alert(error))
